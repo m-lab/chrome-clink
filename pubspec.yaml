@@ -1,0 +1,8 @@
+name: chrome-clink
+dependencies:
+  browser: any
+  js: any
+  web_ui: any
+#  chrome:
+#    git: git://github.com/dart-gde/chrome.dart.git
+          

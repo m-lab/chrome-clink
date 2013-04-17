@@ -1,0 +1,16 @@
+{
+  "name": "clink",
+  "description": "An implementation of Clink as a packaged app",
+  "version": "0.1",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": {
+
+  },
+  "permissions": [
+    { "socket":  ["udp-send-to", "udp-bind"] }
+  ]
+}

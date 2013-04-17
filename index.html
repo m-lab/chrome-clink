@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Clink</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Clink</h1>
+
+    <p class="doclink"><a href="http://allendowney.com/research/clink">About</a></p>
+    <p>
+    <button on-click="start()" id="start">Start</button>
+    </p>
+    <div class="results" id="results"></div>
+
+    <div id="footer">
+      The current time is: {{currentTime}}
+    </div>
+
+    <script type="application/dart" src="clink.dart"></script>
+    <script type="text/javascript" src="dart.js"></script>
+    <script type="text/javascript" src="dart_interop.js"></script> 
+</html>

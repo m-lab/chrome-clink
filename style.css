@@ -1,0 +1,32 @@
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+p {
+  color: #333;
+}
+
+.doclink {
+  font-style: italic;
+  color: #EEE;
+}
+
+.results {
+  background-color: #EEE;
+  border: 1px solid #333;
+  font-size: 11px;
+}
+
+.results > .error {
+  color: #E00;
+}
+
+#footer {
+  font-size: 9px;
+  font-style: italic;
+}
