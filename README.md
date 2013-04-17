@@ -1,4 +1,6 @@
 chrome-clink
 ============
 
-Clink as a chrome extension
+Clink as a chrome extension.
+
+http://allendowney.com/research/clink/
